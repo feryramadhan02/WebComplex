@@ -1,0 +1,114 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+header {
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    background-color: #f7f7f7;
+}
+
+.header-logo{
+    width: 125px;
+    float: left;
+    margin : 10px;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.header-right a {
+    line-height: 50px;
+    padding: 0 15px;
+    color: rgb(10, 10, 10);
+    display: block;
+    float: left; 
+    text-decoration: none;
+    transition: all 0.5s;
+}
+  
+.header-right a:hover {
+    background-color: rgba(72, 194, 243, 0.603);
+}
+
+
+.top-wrapper{
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.images img {
+    width : 10%;
+    padding: 0 210px 0 210px; /*jika terlalu besar kurangi width nya*/
+    margin-bottom: -30px;
+}
+
+
+.contact{
+    padding: 10px 0;
+}
+ 
+.contact-wrapper{
+    text-align: center;
+    padding-top: 50px;
+}
+.text-field{
+    width: 20%;
+    height: 50px;
+    margin-bottom: 25px;
+}
+.bottom-send {
+    padding: 15px 40px;
+    width: 20%;
+    background-color: #5dc6ca;
+    cursor: pointer;
+    box-shadow: 0 7px #138991;
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 10px;
+  }
+  
+  .bottom-send:active {
+    position: relative;
+    top: 4px;
+    box-shadow: none;
+  }
+
+  .contact-wrapper h4 {
+    padding-bottom: 10px;
+}
+
+footer{
+    height: 130px;
+    background-color: rgb(205, 247, 241);
+    color: rgb(10, 10, 10);
+}
+.footer-left{
+    float: left;
+    padding: 20px;
+}
+.footer-right {
+    float: right;
+    padding: 20px;
+}
+.footer-right li {
+    margin-bottom: 10px;
+}

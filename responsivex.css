@@ -1,0 +1,79 @@
+/* For Tablets */
+
+@media all and (max-width: 1000px) { 
+    .header {
+      width: 90%;
+    }
+
+    .top-wrapper{
+        text-align: center;
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+    .images img {
+        width : 20%;
+        padding: 0 130px 0 130px;
+        margin-bottom: -30px;
+    }
+
+    .heading h3 {
+      font-size: 30px;
+    }
+     
+    .text-field{
+        width: 35%;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+}
+
+/* For Smartphones */
+
+@media all and (max-width: 670px) {
+ 
+    .top-wrapper{
+      text-align: center;
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+    .top-wrapper h1, h2 {
+       font-size: 20px;
+    }
+    .images img {
+        width : 12%;
+        padding: 0 90px 0 90px;
+        margin-bottom: -10px;
+    }
+    .heading h3 {
+        font-size: 20px;
+    }
+    .lesson-wrapper {
+        padding-bottom: 450px;
+      }
+      .lesson {
+        width: 100%;
+      }
+      
+      .lesson-icon {
+        width: 60%;
+        padding-bottom: 150px;
+        margin-top: -150px;
+        margin-left: 20px;
+      } 
+    
+      .lesson-icon p {
+        font-size: 12px;
+        margin-top: -155px;
+      }
+    
+      .text-contents {
+        width: 40%;
+        margin-top: -160px;
+        margin-left: -80px;
+      }
+    
+    .text-field{
+        width: 45%;
+    }
+
+}
